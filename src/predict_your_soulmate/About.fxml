@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="764.0" prefWidth="1095.0" style="-fx-background-color: rgb(253,125,123);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="747.0" fitWidth="1059.0" layoutX="18.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Color.jpg" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="36.0" layoutY="52.0" prefHeight="672.0" prefWidth="1023.0" />
+      <Text fill="#9456b5" layoutX="431.0" layoutY="106.0" stroke="#ee2424" strokeType="OUTSIDE" strokeWidth="3.0" text="ABOUT" wrappingWidth="162.46484375">
+         <font>
+            <Font name="System Bold" size="45.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="predictyoursoulamte.com (the “Site”) and the Licensed Mobile Application for Accessing the Site (including all associated media and online or electronic documentation) (“the Application”), are owned and operated by FRS(Bangladesh) Limited (“Company”). The Site and Application are hereinafter collectively referred to as “Platform”." wrappingWidth="997.13671875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="51.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Company makes available its services and products to you, through the Platform on the condition that you abide by these Terms and Conditions, as updated from time to time. If you do not accept the Terms and Conditions or you do not meet or comply with their provisions, you should not use or access the Platform and/or avail of the Company’s services or products via the Platform." wrappingWidth="997.1367363631725">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Text layoutX="57.0" layoutY="557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Visitor to the platform, whether or not he/she has made any payment for availing access and/or services on the Platform, including the general browsers of the Platform, whether registered or not, are hereinafter referred to as “User/Users”." wrappingWidth="985.13671875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

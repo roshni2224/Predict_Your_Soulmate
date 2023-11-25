@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1662.0" prefWidth="1639.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="539.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DHAKA">
+         <font>
+            <Font size="46.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.11428571428571421" startY="0.8761904761904762">
+               <stops>
+                  <Stop color="#1e64d6f7" />
+                  <Stop color="#b86f11" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <ImageView fitHeight="187.0" fitWidth="225.0" layoutX="29.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Roshni.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="187.0" layoutX="29.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Faria.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="187.0" fitWidth="200.0" layoutX="29.0" layoutY="668.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Rifa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="170.0" fitWidth="200.0" layoutX="29.0" layoutY="1190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Safa.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="181.0" fitWidth="200.0" layoutX="14.0" layoutY="1450.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Safiya.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="211.0" fitWidth="200.0" layoutX="35.0" layoutY="947.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/e6e8804d-0e77-42b5-b379-a9cf3bd54f66.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="1196.0" endY="-3.0517578125E-5" layoutX="120.0" layoutY="322.0" startX="-120.0" startY="-3.0517578125E-5" />
+      <Line endX="1225.2928466796875" endY="-2.0" layoutX="101.0" layoutY="592.0" startX="-101.0" startY="-2.0" />
+      <Line endX="1212.2928466796875" endY="-3.0" layoutX="104.0" layoutY="905.0" startX="-104.0" startY="-3.0" />
+      <Line endX="1243.2928466796875" endY="-10.0" layoutX="101.0" layoutY="1179.0" startX="-101.0" startY="-10.0" />
+      <Line endX="1219.2928466796875" endY="29.0" layoutX="101.0" layoutY="1390.0" startX="-101.0" startY="29.0" />
+      <Text fill="#f20808" layoutX="251.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#d31414" layoutX="225.0" layoutY="1205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e81d1d" layoutX="233.0" layoutY="962.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e81212" layoutX="243.0" layoutY="683.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#bc1e1e" layoutX="243.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#f21515" layoutX="215.0" layoutY="1447.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb0707" layoutX="251.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e41111" layoutX="251.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb0808" layoutX="251.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#f52222" layoutX="251.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#d30d0d" layoutX="251.0" layoutY="241.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Present Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e41212" layoutX="251.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#da0f0f" layoutX="253.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#da1010" layoutX="245.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#dd1313" layoutX="226.0" layoutY="1234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e41b1b" layoutX="236.0" layoutY="990.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#c31010" layoutX="245.0" layoutY="712.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#c90f0f" layoutX="216.0" layoutY="1474.0" stroke="#dd1818" strokeType="OUTSIDE" strokeWidth="0.0" text="Age :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#d31717" layoutX="244.0" layoutY="420.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#d31111" layoutX="215.0" layoutY="1502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e80a0a" layoutX="225.0" layoutY="1262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#c90c0c" layoutX="236.0" layoutY="1019.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb0d0d" layoutX="244.0" layoutY="741.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Father's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb1717" layoutX="243.0" layoutY="446.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#da0707" layoutX="213.0" layoutY="1531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e80a0a" layoutX="227.0" layoutY="1291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb1111" layoutX="235.0" layoutY="1048.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#dd0909" layoutX="243.0" layoutY="767.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mother's Name :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#d00d0d" layoutX="245.0" layoutY="473.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb1212" layoutX="214.0" layoutY="1557.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb0808" layoutX="229.0" layoutY="1319.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e80e0e" layoutX="237.0" layoutY="1076.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e10b0b" layoutX="245.0" layoutY="794.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Religion :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e11111" layoutX="241.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Present Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#ee0d0d" layoutX="215.0" layoutY="1583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Present Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#d70e0e" layoutX="238.0" layoutY="1105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Present Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#c90707" layoutX="241.0" layoutY="826.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Present Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e80404" layoutX="225.0" layoutY="1345.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Present Address :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e11414" layoutX="243.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#cd0c0c" layoutX="246.0" layoutY="561.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#e40f0f" layoutX="245.0" layoutY="861.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#dd0d0d" layoutX="246.0" layoutY="888.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb0c0c" layoutX="239.0" layoutY="1131.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#f20a0a" layoutX="240.0" layoutY="1153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#f50e0e" layoutX="225.0" layoutY="1376.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#f50a0a" layoutX="227.0" layoutY="1405.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#eb0909" layoutX="216.0" layoutY="1611.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone No :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text fill="#cd0f0f" layoutX="216.0" layoutY="1637.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email :">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="312.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sanjana A Roshni ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="307.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Soyeda Fariya">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="305.0" layoutY="681.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usafa Rifa">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="295.0" layoutY="960.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sabiha Nawshin">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="287.0" layoutY="1203.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Samaun Safa">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="279.0" layoutY="1445.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Safiya Ahmed">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Text layoutX="708.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BRIDES">
+         <font>
+            <Font size="45.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="0.2571428571428571" endY="1.0" startX="0.5523809523809524" startY="1.0">
+               <stops>
+                  <Stop color="#853319" />
+                  <Stop color="#f5161b" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Text>
+      <ImageView fitHeight="60.0" fitWidth="66.0" layoutX="21.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Love_icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="66.0" layoutX="1246.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/Love_icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

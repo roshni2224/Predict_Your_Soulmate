@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="898.0" prefWidth="1204.0" style="-fx-background-color: rgb(253,125,123);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="844.0" fitWidth="1151.0" layoutX="27.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rainbow.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="62.0" layoutY="1.0" prefHeight="898.0" prefWidth="1087.0" style="-fx-background-color: white;">
+         <children>
+            <Text fill="#e81717" layoutX="332.0" layoutY="58.0" stroke="#242524" strokeType="OUTSIDE" strokeWidth="3.0" text="TERMS &amp; CONDITIONS">
+               <font>
+                  <Font name="System Bold" size="35.0" />
+               </font>
+            </Text>
+            <Text fill="#111010" layoutX="24.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BY THE POSITIVE ACTS OF A USER ACCESSING THE PLATFORM, THE USER AGREES TO BE BOUND BY THE TERMS AND CONDITIONS SET FORTH BELOW (“Terms”). IF A USER DOES NOT AGREE WITH ANY OF THESE TERMS AND CONDITIONS, HE/SHE SHOULD NOT ACCESS OR USE THE PLATFORM." wrappingWidth="1035.13671875">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="24.0" layoutY="216.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1. The Platform is intended only to serve as a preliminary medium of contact and information for Users who have a bona fide intention to enter into a matrimonial alliance (“Purpose”). The Platform does not purport to be a marriage or business bureau or a dating /contact website." wrappingWidth="1035.1367067098618">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="24.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2. Company presumes that every User who logs on to the Platform has a bona fide intention to get married / enter into a matrimonial alliance and not otherwise. Company under no circumstances shall be responsible for any loss or damage resulting from anyone's use of the Platform or the services offered on the Platform and / or any content posted on the Platform or transmitted to Users. The exchange of matrimonial profile(s) through or by the Platform should not in any way be construed as a matrimonial offer and/or recommendation from or by the Company. Company shall not be responsible for any loss or damage to any individual arising in/out of, or subsequent to, matrimonial relations established pursuant to use of the service provided by Company." wrappingWidth="1066.13671875">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+            <Text layoutX="24.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Company collects information / data including, without limitation, e-mail id, address, first name, last name, telephone/mobile number, date of birth, age, gender, ethnic/cultural background, appearance, religion, occupation, preferences, life style information, general geographical location (“User Data”) from Users in order to enable them to create their profiles on the Platform. Apart from this, certain other health related information, including physical and mental disabilities are also collected. The User Data so collected is entered in a program especially devised for matching profiles and to provide matches for Users based on their pre-selected partner preferences criteria. User Data is displayed only after taking prior consent of Users. Company does not collect financial information of Users such as credit card/debit card numbers/bank accounts numbers etc. Company shall not be able to provide access to the Platform and/or create profiles of Users if the requisite User Data is not provided by the Users. User hereby consents to usage of his/her User Data to be displayed to other Users on the Platform." wrappingWidth="1066.1367061138153">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="917.0" prefWidth="1087.0" style="-fx-background-color: rgb(253,125,123);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="predict_your_soulmate.RegisterController">
+   <children>
+      <ImageView fitHeight="824.0" fitWidth="876.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Love_Image1.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="279.0" layoutY="-4.0" prefHeight="917.0" prefWidth="764.0" style="-fx-background-color: rgb(254,185,142);">
+         <children>
+            <Text fill="#f50655" layoutX="14.0" layoutY="60.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="3.0" text="REGISTER" wrappingWidth="216.46484375">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Text>
+            <Line endX="-214.0" layoutX="413.0" layoutY="81.0" startX="-405.0" strokeWidth="3.0" />
+            <Text layoutX="23.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME :">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tfName" layoutX="212.0" layoutY="117.0" prefHeight="37.0" prefWidth="530.0" promptText="Enter Your Name">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfAge" layoutX="212.0" layoutY="169.0" prefHeight="37.0" prefWidth="530.0" promptText="Enter Your Age">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfReligion" layoutX="212.0" layoutY="222.0" prefHeight="37.0" prefWidth="530.0" promptText="Enter Your Religion">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Text layoutX="22.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RELIGION :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="24.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AGE :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tfDivision" layoutX="212.0" layoutY="284.0" prefHeight="37.0" prefWidth="530.0" promptText="Enter Your Division">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Text layoutX="23.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DIVISION :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="374.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PROFESSION :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <TextField fx:id="tfProfession" layoutX="216.0" layoutY="349.0" prefHeight="37.0" prefWidth="530.0" promptText="Enter Your Profession">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="tfEmail" layoutX="212.0" layoutY="428.0" prefHeight="37.0" prefWidth="530.0" promptText="Enter Your Email">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </TextField>
+            <Text layoutX="24.0" layoutY="452.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL :">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Button layoutX="430.0" layoutY="851.0" mnemonicParsing="false" onAction="#Add_users" style="-fx-background-color: black; -fx-background-radius: 90;" text="Insert" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="523.0" layoutY="851.0" mnemonicParsing="false" onAction="#Edit" style="-fx-background-color: black; -fx-background-radius: 90;" text="Update" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button layoutX="653.0" layoutY="851.0" mnemonicParsing="false" onAction="#Delete" style="-fx-background-color: black; -fx-background-radius: 90;" text="Delete" textFill="#f8f8f8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnReturnFromRegister" layoutX="44.0" layoutY="858.0" mnemonicParsing="false" onAction="#handleBtnOfRegister" style="-fx-background-color: black; -fx-background-radius: 90;" text="Return to Home Page" textFill="#fff6f6">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <TableView fx:id="table_users" layoutX="24.0" layoutY="484.0" onMouseClicked="#getSelected" prefHeight="350.0" prefWidth="721.0" style="-fx-background-color: white;">
+              <columns>
+                <TableColumn fx:id="colId" prefWidth="44.0" text="ID" />
+                <TableColumn fx:id="colName" prefWidth="116.0" text="Name" />
+                  <TableColumn fx:id="colAge" prefWidth="51.0" text="Age" />
+                  <TableColumn fx:id="colReligion" prefWidth="89.0" text="Religion" />
+                  <TableColumn fx:id="colDivision" prefWidth="114.0" text="Division" />
+                  <TableColumn fx:id="colProfession" prefWidth="121.0" text="Profession" />
+                  <TableColumn fx:id="colEmail" minWidth="2.0" prefWidth="185.0" text="Email" />
+              </columns>
+            </TableView>
+            <TextField fx:id="tfId" layoutX="212.0" layoutY="82.0" prefHeight="31.0" prefWidth="530.0" promptText="Id" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
